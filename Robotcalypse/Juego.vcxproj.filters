@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Jugador">
+      <UniqueIdentifier>{669a15a8-ca1e-4df4-b792-4fe4cc05dc3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juego">
+      <UniqueIdentifier>{5a3b9123-9cc0-46a8-925b-021a8556c931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilidades">
+      <UniqueIdentifier>{bae3174c-fc21-4352-947b-1036b98f6ede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lista">
+      <UniqueIdentifier>{0702c8ad-fe65-409b-b0e1-99879b8044ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprites">
+      <UniqueIdentifier>{e42e6907-d084-4c2b-becd-a83a8aaf4a41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sonidos">
+      <UniqueIdentifier>{19b443a5-6742-49ff-b419-37a695053d6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fuentes">
+      <UniqueIdentifier>{17f78535-d73b-4273-a082-fbc4657ef410}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Juego.cpp">
+      <Filter>Juego</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilidades.cpp">
+      <Filter>Utilidades</Filter>
+    </ClCompile>
+    <ClCompile Include="Lista.cpp">
+      <Filter>Lista</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderizar.cpp">
+      <Filter>Juego</Filter>
+    </ClCompile>
+    <ClCompile Include="Actualizar.cpp">
+      <Filter>Juego</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Juego.h">
+      <Filter>Juego</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemigos.h">
+      <Filter>Jugador</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilidades.h">
+      <Filter>Utilidades</Filter>
+    </ClInclude>
+    <ClInclude Include="Lista.h">
+      <Filter>Lista</Filter>
+    </ClInclude>
+    <ClInclude Include="Arma.h">
+      <Filter>Jugador</Filter>
+    </ClInclude>
+    <ClInclude Include="Caracter.h">
+      <Filter>Jugador</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Metralleta.WAV">
+      <Filter>Sonidos</Filter>
+    </None>
+    <None Include="Laser.WAV">
+      <Filter>Sonidos</Filter>
+    </None>
+    <None Include="Target.png">
+      <Filter>Sprites</Filter>
+    </None>
+    <None Include="Calle2.png">
+      <Filter>Sprites</Filter>
+    </None>
+    <None Include="CityBackground.png">
+      <Filter>Sprites</Filter>
+    </None>
+    <None Include="Villano1Sheet.png">
+      <Filter>Sprites</Filter>
+    </None>
+    <None Include="Bala2.png">
+      <Filter>Sprites</Filter>
+    </None>
+    <None Include="BalaVillano1.png">
+      <Filter>Sprites</Filter>
+    </None>
+    <None Include="Villano2FullSheet.png">
+      <Filter>Sprites</Filter>
+    </None>
+    <None Include="BalaVillano2.png">
+      <Filter>Sprites</Filter>
+    </None>
+    <None Include="BarraDeVidaAzul.png">
+      <Filter>Sprites</Filter>
+    </None>
+    <None Include="BarraDeVidaVacia.png">
+      <Filter>Sprites</Filter>
+    </None>
+    <None Include="SonidoBalaVillano2.WAV">
+      <Filter>Sonidos</Filter>
+    </None>
+    <None Include="TanqueFullSheet.png">
+      <Filter>Sprites</Filter>
+    </None>
+    <None Include="BalaVillano4.png">
+      <Filter>Sprites</Filter>
+    </None>
+    <None Include="NaveFullSheet.png">
+      <Filter>Sprites</Filter>
+    </None>
+    <None Include="PlayerSheetFull.png">
+      <Filter>Sprites</Filter>
+    </None>
+    <None Include="ItemsFull.png">
+      <Filter>Sprites</Filter>
+    </None>
+    <None Include="BalaVillano3.png">
+      <Filter>Sprites</Filter>
+    </None>
+    <None Include="ItemsInfo.png">
+      <Filter>Sprites</Filter>
+    </None>
+    <None Include="Item.wav">
+      <Filter>Sonidos</Filter>
+    </None>
+    <None Include="ItemBomb.wav">
+      <Filter>Sonidos</Filter>
+    </None>
+    <None Include="Ready.wav">
+      <Filter>Sonidos</Filter>
+    </None>
+    <None Include="SonidoBalaVillano3.wav">
+      <Filter>Sonidos</Filter>
+    </None>
+    <None Include="stage_1.mid">
+      <Filter>Sonidos</Filter>
+    </None>
+    <None Include="PerfectDark12.pcx">
+      <Filter>Fuentes</Filter>
+    </None>
+    <None Include="Robopocalypse.png">
+      <Filter>Sprites</Filter>
+    </None>
+    <None Include="BarraComun.png">
+      <Filter>Sprites</Filter>
+    </None>
+    <None Include="ready_4_action.wav" />
+    <None Include="Bala3.png" />
+  </ItemGroup>
+</Project>

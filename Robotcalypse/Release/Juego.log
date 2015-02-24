@@ -1,0 +1,74 @@
+﻿Build started 06/03/2014 21:14:04.
+     1>Project "C:\Users\Yandri\Dropbox\Robotcalypse\Juego.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Actualizar.cpp Juego.cpp Lista.cpp Main.cpp Renderizar.cpp Utilidades.cpp
+         Actualizar.cpp
+         Juego.cpp
+     1>Juego.cpp(2472): warning C4800: 'clock_t' : forcing value to bool 'true' or 'false' (performance warning)
+         Lista.cpp
+         Main.cpp
+         Renderizar.cpp
+         Utilidades.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Yandri\Dropbox\Robotcalypse\Release\Juego.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Yandri\Dropbox\Robotcalypse\Release\Juego.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Yandri\Dropbox\Robotcalypse\Release\Juego.lib" /MACHINE:X86 /SAFESEH Release\Actualizar.obj
+         Release\Juego.obj
+         Release\Lista.obj
+         Release\Main.obj
+         Release\Renderizar.obj
+         Release\Utilidades.obj
+     1>Actualizar.obj : error LNK2001: unresolved external symbol __imp__gfx_driver
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__install_joystick
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__play_sample
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__load_font
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__joy
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__install_keyboard
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__set_color_depth
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__create_bitmap
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__poll_joystick
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__destroy_bitmap
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__remove_keyboard
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__set_palette
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__makecol
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__load_midi
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__destroy_font
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__fixatan2
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__clear_bitmap
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__install_mouse
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__textprintf_centre_ex
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__remove_mouse
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__screen
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__destroy_sample
+     1>Juego.obj : error LNK2001: unresolved external symbol _load_png
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__remove_sound
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__mouse_b
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__load_sample
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__rest
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp___install_allegro_version_check
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__install_sound
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp___cos_tbl
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__allegro_exit
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__set_gfx_mode
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__set_alpha_blender
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__key
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__fixsin
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__fixcos
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__itofix
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__fixtof
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__draw_sprite
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__release_screen
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__acquire_screen
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__clear_to_color
+     1>Juego.obj : error LNK2001: unresolved external symbol __imp__set_window_title
+     1>Main.obj : error LNK2001: unresolved external symbol __imp___WinMain
+     1>Renderizar.obj : error LNK2001: unresolved external symbol __imp__masked_blit
+     1>Renderizar.obj : error LNK2001: unresolved external symbol __imp__textprintf_ex
+     1>Renderizar.obj : error LNK2001: unresolved external symbol __imp__play_midi
+     1>Renderizar.obj : error LNK2001: unresolved external symbol __imp__show_mouse
+     1>Renderizar.obj : error LNK2001: unresolved external symbol __imp__draw_trans_sprite
+     1>Renderizar.obj : error LNK2001: unresolved external symbol __imp__draw_sprite_h_flip
+     1>C:\Users\Yandri\Dropbox\Robotcalypse\Release\Juego.exe : fatal error LNK1120: 50 unresolved externals
+     1>Done Building Project "C:\Users\Yandri\Dropbox\Robotcalypse\Juego.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:08.64
